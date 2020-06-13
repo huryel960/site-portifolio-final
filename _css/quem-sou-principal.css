@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+section#conteudo {
+	width: 1000px;
+	margin: -30px auto;
+}
+
+iframe#frame-spec {
+	width: 400px;
+	height: 450px;
+	border: none;
+}
+
+
+div#divsubmenu {
+
+	width: 1200px;
+}
+
+nav#submenu {
+
+	display: block;
+}
+
+nav#submenu ul {
+ 	list-style: none;
+	position: relative;
+	top: -30px;
+
+
+
+}
+
+nav#submenu li{
+
+	display: inline-block;
+	background-color: rgb(7,213,213);
+	padding: 10px;
+	margin: auto;
+	transition: background-color 0.3s;
+}
+
+nav#submenu li:hover{
+	background-color: rgba(0,119,136,0.7);
+
+
+}
+nav#submenu a{
+
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
